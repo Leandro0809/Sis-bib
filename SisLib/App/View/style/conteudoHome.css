@@ -1,0 +1,18 @@
+.conteudo h1 {
+    color: #49C2DD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudoHome {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2vw;
+    color: #49C2DD;
+    width: 100%;
+}
+
+.conteudoHome img {
+    margin-top: 150px;
+    width: 30vw;
+
+}

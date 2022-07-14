@@ -1,0 +1,94 @@
+.adicionarEPesquisar {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.conteudoAutor {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.adicionarAutor {
+    color: #fff;
+    background-color: #19A4AD;
+    outline-color: rgb(17, 0, 0);
+    border: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divBusca {
+    background-color: #ffffff;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #000000;
+}
+
+.tabelaAutor {
+    height: 50%;
+    overflow-y: scroll;
+    width: 90%;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+.tabela {
+    margin-top: 5%;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #080808;
+    border-collapse: collapse;
+    font-size: 120%;
+
+}
+
+th,
+td {
+    padding: 10px 50px;
+}
+
+thead {
+    background-color: rgb(219, 223, 223);
+}
+
+@media (max-width: 970px) {
+    .adicionarEPesquisar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .botaoAdd {
+        padding-bottom: 4%;
+    }
+}

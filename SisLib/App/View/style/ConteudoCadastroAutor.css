@@ -1,0 +1,96 @@
+.conteudoCadastroAutor {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.conteudoCadastroAutor h1 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    border-radius: 3%;
+    border: solid;
+    border-width: 2px;
+}
+
+.allinputs {
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.campo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    height: 30px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+
+.btn {
+    color: #fff;
+    background-color: #19A4AD;
+    outline-color: rgb(17, 0, 0);
+    border: none;
+    padding: 10px 80px 10px 80px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.btna {
+    color: #fff;
+    background-color: #720905;
+    outline-color: rgb(17, 0, 0);
+    border: none;
+    padding: 10px 80px 10px 80px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+
+.botoes {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 800px) {
+    .botoes {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .btna {
+        margin-top: 10px;
+    }
+
+    
+
+}
